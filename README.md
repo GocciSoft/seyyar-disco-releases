@@ -29,8 +29,10 @@ All builds are also listed on the [Releases](https://github.com/Ahmet-Kirmizi/se
 ## Installing
 
 **macOS.** Open the `.dmg` and drag *Seyyar Disco* into *Applications*. The app is not yet
-notarized, so the first launch needs one extra step: right-click (or Control-click) the app in
-*Applications* and choose **Open**, then confirm. After that it opens normally.
+notarized, so macOS blocks the first launch with "Apple could not verify…". Click **Done**, open
+**System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to Seyyar
+Disco, then confirm. After that it opens normally. (On macOS 14 and older, right-click the app and
+choose **Open** instead.)
 
 **Windows.** Run the installer. SmartScreen may show "Windows protected your PC" because the
 build is not yet code-signed: click **More info**, then **Run anyway**.
